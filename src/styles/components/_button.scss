@@ -1,0 +1,29 @@
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 400;
+  background-color: $green;
+  color: white;
+  padding: $s-size;
+  text-decoration: none;
+  line-height: 1;
+  border-radius: 2px;
+  &:hover {
+    background: #207A27;
+  }
+}
+
+.button--link {
+  background: none;
+  &:hover {
+    background: none;
+  }
+}
+
+.button--secondary {
+  display: inline-block;
+  background: #D8B4A0;
+}
